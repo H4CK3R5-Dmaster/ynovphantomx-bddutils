@@ -1,5 +1,5 @@
 // components/Loader.js
-import { Box, Text } from "@chakra-ui/react";
+import { Box, Text, Image } from "@chakra-ui/react";
 import { useEffect, useState } from "react";
 
 const Loader = () => {
@@ -28,7 +28,7 @@ const Loader = () => {
     >
       {isLoading ? (
         <Box>
-          <img
+          <Image
             src="/logo.png" // Remplacez par le chemin vers votre image
             alt="Loading"
             style={{ maxWidth: "100%", maxHeight: "100%" }}
