@@ -7,7 +7,7 @@ import theme from "../../utils/chakra-theme";
 
 export default function PublicLayout({ children }) {
   return (
-    <Box minH={"100vh"} bg={"#2A2B2E"}>
+    <Box minH={"100vh"} bg={"#1A171E"}>
       <Head>
         <title>YnovPhantomX UTILS</title>
         <meta name="description" content="YnovPhantomX database utils" />
