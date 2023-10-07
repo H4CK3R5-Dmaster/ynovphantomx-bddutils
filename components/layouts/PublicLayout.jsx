@@ -9,11 +9,11 @@ export default function PublicLayout({ children }) {
   return (
     <Box minH={"100vh"} bg={"#2A2B2E"}>
       <Head>
-        <title>Echoes</title>
-        <meta name="description" content="Echoes { FR RP }, French rôle play !" />
+        <title>YnovPhantomX UTILS</title>
+        <meta name="description" content="YnovPhantomX database utils" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta property="og:image" content="/logo.png" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/logo.png" />
       </Head>
       <ChakraProvider theme={theme}>
         <Navbar/>
