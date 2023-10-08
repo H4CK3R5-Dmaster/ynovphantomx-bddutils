@@ -29,7 +29,7 @@ const CardInfo = () => {
           <Box key={index} bg="#fd0000" p={8} borderRadius="md" boxShadow="md" color={"white"}>
             <Image src={item.image} alt="Image" height={60} width={"2xl"}/>
             <Heading as="h1" size="md" mt={8} fontSize={24}>
-              {item.name.toUpperCase()}
+              {item.name.toUpperCase()} (ETAPE PENTEST : {item.step})
             </Heading>
             <Text mt={2}>{item.description.toUpperCase()}</Text>
           </Box>
