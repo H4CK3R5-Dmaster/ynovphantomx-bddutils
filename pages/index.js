@@ -16,7 +16,7 @@ export default function Home() {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    // Simulez une durée de chargement (remplacez par votre logique de chargement réelle)
+    
     const fakeLoading = setTimeout(() => {
       setIsLoading(false);
     }, 3000);

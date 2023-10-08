@@ -1,4 +1,5 @@
 import { Box, Grid, Image, Heading, Text, Button, Center } from "@chakra-ui/react";
+import NextLink from 'next/link'
 
 const GridCard = () => {
   const data = [
@@ -38,7 +39,9 @@ const GridCard = () => {
         ))}
       </Grid>
       <Center alignContent={"center"} marginTop={10}>
-        <Button alignItems={"center"} bg={"#fd0000"} color={"white"} _hover={{bg: "black"}}>VOIR LES OUTILS</Button>
+        <NextLink href={"/"}>
+            <Button alignItems={"center"} bg={"#fd0000"} color={"white"} _hover={{bg: "black"}}>VOIR LES OUTILS</Button>
+        </NextLink>
       </Center>
     </Box>
   );

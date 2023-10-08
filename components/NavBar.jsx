@@ -68,10 +68,10 @@ const Navbar = () => {
         <Spacer />
         <Box display={{ base: "none", md: "block" }}>
           <Flex color="white">
-            <Box mx={4}>
+            <Box mx={4} _hover={{color: 'black'}}>
               <NextLink href={"/"}>Accueil</NextLink>
             </Box>
-            <Box mx={4}>
+            <Box mx={4} _hover={{color: 'black'}}>
               <Box
                 onMouseEnter={handleDropdownToggle}
                 onMouseLeave={handleDropdownClose}
@@ -84,7 +84,7 @@ const Navbar = () => {
           </Flex>
         </Box>
         <IconButton
-          icon={<HamburgerIcon />}
+          icon={<HamburgerIcon color={"white"}/>}
           variant="ghost"
           colorScheme="#fd0000"
           size="md"
