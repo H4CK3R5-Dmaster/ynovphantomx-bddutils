@@ -26,9 +26,9 @@ const GridCard = () => {
         PRINCIPES DE LA BASE DE DONNEES UTILS
       </Heading>
 
-      <Grid templateColumns={["repeat(1, 1fr)","repeat(3, 1fr)"]} gap={6} mx={20}>
+      <Grid templateColumns={["repeat(1, 1fr)","repeat(3, 1fr)"]} gap={6} mx={[10,20,20]}>
         {data.map((item, index) => (
-          <Box key={index} bg="#fd0000" p={8} borderRadius="md" boxShadow="md" color={"white"}>
+          <Box key={index} bg="#fd0000" p={[2,8,8]} borderRadius="md" boxShadow="md" color={"white"}>
             <Image src={item.imageSrc} alt="Image" height={60} width={"2xl"}/>
             <Heading as="h3" size="md" mt={8} >
               {item.title}
