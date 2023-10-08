@@ -1,0 +1,9 @@
+{
+    "categories": [
+        {"id": 1, "name": "Reconnaissance", "step": 1, "image":"/recon.png"},
+        {"id": 2, "name": "Enumération", "step": 2, "image":"/enum.jpg"},
+        {"id": 3, "name": "Exploitation", "step": 3, "image":"/exploit.jpg"},
+        {"id": 4, "name": "Maintient", "step": 4, "image":"/trojan.jpg"},
+        {"id": 5, "name": "Exfiltration", "step": 5, "image":"/exfiltrate.png"}
+    ]
+}
