@@ -101,7 +101,7 @@ const Navbar = () => {
             </Box>
             
             <Box mx={4} my={2}>
-              <NextLink href={"/"}>INFORMATIONS</NextLink>
+              <NextLink href={"/informations"}>INFORMATIONS</NextLink>
             </Box>
            
           </Flex>
