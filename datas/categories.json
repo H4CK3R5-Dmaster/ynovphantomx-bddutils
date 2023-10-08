@@ -1,9 +1,9 @@
 {
     "categories": [
-        {"id": 1, "name": "Reconnaissance", "step": 1, "image":"/recon.png"},
-        {"id": 2, "name": "Enumération", "step": 2, "image":"/enum.jpg"},
-        {"id": 3, "name": "Exploitation", "step": 3, "image":"/exploit.jpg"},
-        {"id": 4, "name": "Maintient", "step": 4, "image":"/trojan.jpg"},
-        {"id": 5, "name": "Exfiltration", "step": 5, "image":"/exfiltrate.png"}
+        {"id": 1, "name": "Reconnaissance", "step": 1, "image":"/recon.png", "description":"La collecte d’informations est l’étape initiale de tout projet de pentesting. Elle consiste à recueillir les données et renseignements relatifs à la cible. Les sources d’informations peuvent varier selon la nature du test d’intrusion. Il peut s’agir de sources externes accessibles à tous les utilisateurs comme les moteurs de recherche, les réseaux sociaux et le DNS (Domain Name Service) ou d’informations prodiguées par l’entreprise elle-même."},
+        {"id": 2, "name": "Enumération", "step": 2, "image":"/enum.jpg", "description":"L’énumération est un processus qui consiste à accéder aux services qui tournent derrière les ports ouverts, découverts lors du scanning, afin d’obtenir plus d’informations sur la cible. Lors de la phase d’énumération, l’attaquant crée une connexion active avec le système cible et effectue directement ses requêtes sur celui-ci. Les informations recueillies sont utilisées pour identifier les vulnérabilités du système afin de les exploiter lors de la phase d’attaque"},
+        {"id": 3, "name": "Exploitation", "step": 3, "image":"/exploit.jpg", "description":"La phase d’exploitation correspond à la mise en application concrète du travail effectué précédemment. Le pentester tentera une intrusion à travers chaque faille mise en exergue afin d’asseoir son contrôle sur le système d’information de son client.Il devra surtout prendre le temps d’adapter les exploits, ou les Proof of concept, à l’infrastructure spécifique de son client."},
+        {"id": 4, "name": "Maintient", "step": 4, "image":"/trojan.jpg", "description":"Pour le pentester, l’enjeu est désormais d’obtenir de nouveaux privilèges et de maintenir ces derniers. Au cours de cette étape, il doit agir avec une extrême prudence et effacer ses traces pour éviter d’éveiller les soupçons des équipes techniques. L’implémentation d’une backdoor (porte dérobée) est utile pour se reconnecter facilement en mode administrateur sans être vu et créer des accès aux membres de l’équipe de pentesting."},
+        {"id": 5, "name": "Exfiltration", "step": 5, "image":"/exfiltrate.png", "description":"La phase d'exfiltration correspond à effacer toutes traces de son passage après un pentest. Ici pour le pentester, il pourra effacer sa traces dans les logs ainsi que d'autres endroits de son passage cependant il peut très bien avoir un vpn afin de mieux exercer son exfiltration. A retenir effacer ses traces permet de mieux être sécuriser."}
     ]
 }

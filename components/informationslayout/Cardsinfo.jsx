@@ -31,7 +31,7 @@ const CardInfo = () => {
             <Heading as="h1" size="md" mt={8} fontSize={24}>
               {item.name.toUpperCase()}
             </Heading>
-            {/* <Text mt={2}>{item.description}</Text> */}
+            <Text mt={2}>{item.description.toUpperCase()}</Text>
           </Box>
         ))}
       </Grid>

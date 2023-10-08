@@ -40,7 +40,7 @@ const GridCard = () => {
       </Grid>
       <Center alignContent={"center"} marginTop={10}>
         <NextLink href={"/informations"}>
-            <Button alignItems={"center"} bg={"#fd0000"} color={"white"} _hover={{bg: "black"}}>VOIR LES OUTILS</Button>
+            <Button alignItems={"center"} bg={"#fd0000"} color={"white"} _hover={{bg: "black"}}>VOIR INFORMATIONS</Button>
         </NextLink>
       </Center>
     </Box>
