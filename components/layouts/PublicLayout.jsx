@@ -10,7 +10,7 @@ export default function PublicLayout({ children }) {
     <Box minH={"100vh"} bg={"#1A171E"}>
       <Head>
         <title>YnovPhantomX UTILS</title>
-        <meta name="description" content="YnovPhantomX database utils" />
+        <meta name="description" content="YnovPhantomX database utils ! Explore many utils for pentest or hacking !" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta property="og:image" content="/logo.png" />
         <link rel="icon" href="/logo.png" />
