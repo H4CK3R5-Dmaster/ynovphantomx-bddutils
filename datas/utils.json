@@ -12,7 +12,23 @@
             "categories":[
                 {
                     "id_categorie": 1,
-                    "categorie_name":"Reconnaissance"
+                    "categoriename":"Reconnaissance"
+                }
+            ]
+        },
+        {
+            "id":2,
+            "nom":"Recon-ng",
+            "image":"/reconng.png",
+            "description":"Recon-ng est un outil puissant pour les développeurs travaillant en Python. L’outil est lui-même est écrit dans ce langage. Son interface ressemble beaucoup au framework populaire Metasploit, si bien que ceux qui connaissent déjà le framework n’auront pas de mal à se familiariser avec Recon-ng. L’outil dispose également d'une fonction d'aide interactive, absente de nombreux modules Python, ce qui devrait permettre aux développeurs de l'utiliser rapidement. Recon-ng automatise les activités OSINT qui prennent beaucoup de temps, comme le copier-coller. Recon-ng ne prétend pas réaliser toute la collecte OSINT, mais il peut être utilisé pour automatiser la plupart des collectes les plus populaires, libérant ainsi du temps pour les tâches qui ne peuvent être faites que manuellement.",
+            "parametreslink":"https://nmap.org/book/man-briefoptions.html",
+            "exemple":"sudo nmap -v -A -Pn (ip) [-v = verbose, -A = OS detection, -Pn = Treat all hosts as online]",
+            "video":"https://www.youtube.com/watch?v=m84RjRcjUSM&ab_channel=Hafnium-S%C3%A9curit%C3%A9informatique",
+            "linkdl":"https://nmap.org/",
+            "categories":[
+                {
+                    "id_categorie": 1,
+                    "categoriename":"Reconnaissance"
                 }
             ]
         }
