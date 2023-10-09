@@ -29,7 +29,7 @@ const CardInfo = () => {
         mx={[10, 20]}
       >
         {data.map((item, index) => (
-          <NextLink href={`/categorie/${item.name}`}>
+          <NextLink href={`/categorie/${item.name}`} key={index}>
             <Box
               key={index}
               bg="#fd0000"
