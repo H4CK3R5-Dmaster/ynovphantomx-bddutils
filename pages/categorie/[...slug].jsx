@@ -21,7 +21,7 @@ export default function PageUtils() {
         })
       })
       .catch((error) => console.error(error));
-      console.log(data)
+      
     })
 
     return (

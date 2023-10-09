@@ -3,6 +3,7 @@
         {
             "id":1,
             "nom":"Nmap",
+            "image":"/nmap.png",
             "description":"Nmap est un scanner de ports. Il permet d’analyser un serveur distant et de déterminer quels ports sont ouverts. Il lui sera également possible de recueillir des informations sur le système d’exploitation utilisé ainsi que sur les services hébergés.            ",
             "parametreslink":"https://nmap.org/book/man-briefoptions.html",
             "exemple":"sudo nmap -v -A -Pn (ip) [-v = verbose, -A = OS detection, -Pn = Treat all hosts as online]",
@@ -12,21 +13,6 @@
                 {
                     "id_categorie": 1,
                     "categorie_name":"Reconnaissance"
-                }
-            ]
-        },
-        {
-            "id":0,
-            "nom":"",
-            "description":"",
-            "parametreslink":"",
-            "exemple":"",
-            "video":"",
-            "linkdl":"",
-            "categories":[
-                {
-                    "id_categorie": 0,
-                    "categorie_name":""
                 }
             ]
         }
