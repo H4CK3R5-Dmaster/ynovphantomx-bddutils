@@ -45,7 +45,7 @@ const CardInfoUtils = ({datautils}) => {
       </Grid>
       ) : (
         <Center>
-            <Text>Pas d'outils</Text>
+            <Text>Pas d&lsquo;outils</Text>
         </Center>
       )}
     </Box>
