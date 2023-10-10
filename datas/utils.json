@@ -31,6 +31,38 @@
                     "categoriename":"Reconnaissance"
                 }
             ]
+        },
+        {
+            "id":3,
+            "nom":"TheHarvester",
+            "image":"/harvester.png",
+            "description":"theHarvester est un script Python potentiellement très utile lors de la reconnaissance initiale dans une entreprise. Que ce soit quand vous effectuez un test d'intrusion en tant que professionnel de la cybersécurité ou quand un pirate lance une opération de reconnaissance aux premiers temps d'une attaque.",
+            "parametreslink":"https://www.kali.org/tools/theharvester/",
+            "exemple":"TheHarvester -d (domain) -b google.com [-d domain, -b source]",
+            "video":"https://www.youtube.com/watch?v=bm7OXGdB-ag&ab_channel=LeSaisTu",
+            "linkdl":"https://github.com/laramies/theHarvester",
+            "categories":[
+                {
+                    "id_categorie": 1,
+                    "categoriename":"Reconnaissance"
+                }
+            ]
+        },
+        {
+            "id":4,
+            "nom":"Shodan",
+            "image":"/shodan.jpg",
+            "description":"Shodan est un site web spécialisé dans la recherche d'objets connectés à Internet, et ayant donc une adresse IP visible sur le réseau. Il permet ainsi de trouver une variété de serveurs web, de routeurs ainsi que de nombreux périphériques tels que des imprimantes ou des caméras. Une telle requête est traitée avec une simple analyse de l’entête HTTP renvoyée par l’appareil ou le serveur1. Il est alors possible de récupérer des listes d'éléments spécifiques. Pour chaque résultat, on trouve l'adresse IP du serveur ainsi que d'autres types d'informations sensibles mais accessibles.",
+            "parametreslink":"",
+            "exemple":"voir site",
+            "video":"https://www.youtube.com/watch?v=ehkRtFOniHk&ab_channel=OverShell",
+            "linkdl":"https://www.shodan.io/",
+            "categories":[
+                {
+                    "id_categorie": 1,
+                    "categoriename":"Reconnaissance"
+                }
+            ]
         }
     ]
 }
