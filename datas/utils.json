@@ -52,7 +52,7 @@
             "id":4,
             "nom":"Shodan",
             "image":"/shodan.jpg",
-            "description":"Shodan est un site web spécialisé dans la recherche d'objets connectés à Internet, et ayant donc une adresse IP visible sur le réseau. Il permet ainsi de trouver une variété de serveurs web, de routeurs ainsi que de nombreux périphériques tels que des imprimantes ou des caméras. Une telle requête est traitée avec une simple analyse de l’entête HTTP renvoyée par l’appareil ou le serveur1. Il est alors possible de récupérer des listes d'éléments spécifiques. Pour chaque résultat, on trouve l'adresse IP du serveur ainsi que d'autres types d'informations sensibles mais accessibles.",
+            "description":"Shodan est un site web spécialisé dans la recherche d'objets connectés à Internet, et ayant donc une adresse IP visible sur le réseau. Il permet ainsi de trouver une variété de serveurs web, de routeurs ainsi que de nombreux périphériques tels que des imprimantes ou des caméras. Une telle requête est traitée avec une simple analyse de l’entête HTTP renvoyée par l’appareil ou le serveur. Il est alors possible de récupérer des listes d'éléments spécifiques. Pour chaque résultat, on trouve l'adresse IP du serveur ainsi que d'autres types d'informations sensibles mais accessibles.",
             "parametreslink":"",
             "exemple":"voir site",
             "video":"https://www.youtube.com/watch?v=ehkRtFOniHk&ab_channel=OverShell",
