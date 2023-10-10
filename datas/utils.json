@@ -63,6 +63,38 @@
                     "categoriename":"Reconnaissance"
                 }
             ]
+        },
+        {
+            "id":5,
+            "nom":"OSINT Framework",
+            "image":"/osint-framework.webp",
+            "description":"Il s'agit d'un ensemble de techniques de recherche d'informations à partir de données ouvertes à tous. Il est principalement utilisé dans le cadre de la sécurité nationale ou de l'application de la loi.",
+            "parametreslink":"",
+            "exemple":"voir site",
+            "video":"https://www.youtube.com/watch?v=97mUfPs8sZU&ab_channel=VIEHGroup",
+            "linkdl":"https://osintframework.com/",
+            "categories":[
+                {
+                    "id_categorie": 1,
+                    "categoriename":"Reconnaissance"
+                }
+            ]
+        },
+        {
+            "id":6,
+            "nom":"Dorking",
+            "image":"/dorks.png",
+            "description":"Le Google dorking sert à trouver des informations cachées qui ne sont normalement pas accessibles via une recherche Google normale. Les Google dorks peuvent révéler des informations sensibles ou privées sur les sites web et les entreprises, organisations et individus qui les détiennent et les exploitent.",
+            "parametreslink":"voir vidéo en dessous",
+            "exemple":"voir vidéo",
+            "video":"https://www.youtube.com/watch?v=XaYEqNloSqQ&ab_channel=IT-Connect",
+            "linkdl":"",
+            "categories":[
+                {
+                    "id_categorie": 1,
+                    "categoriename":"Reconnaissance"
+                }
+            ]
         }
     ]
 }
