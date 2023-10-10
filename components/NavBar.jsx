@@ -18,6 +18,17 @@ const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [showDropdown, setShowDropdown] = useState(false);
   const router = useRouter();
+  const { slug } = router.query;
+  const [lastCategorieSlug, setLastCategorieSlug] = useState("");
+
+  // Effet pour mettre à jour le dernier slug de catégorie lorsque le chemin change
+  useEffect(() => {
+    if (router.query.slug && router.pathname.startsWith("/categorie/")) {
+      setLastCategorieSlug(router.query.slug);
+    }
+  }, [router.query.slug, router.pathname]);
+  const isUtilsDetailsPage = router.pathname.startsWith("/utilsdetails/");
+  const isCategorie = router.pathname.startsWith("/categorie/");
 
   const handleDropdownToggle = () => {
     setShowDropdown(!showDropdown);
@@ -54,7 +65,21 @@ const Navbar = () => {
       transition="top 0.3s ease-in-out"
     >
       <Flex align="center">
-        
+        <Box>
+          {isUtilsDetailsPage && (
+            <Box mx={4} my={2} fontSize={"xl"} color={"white"}>
+              <NextLink href={`/categorie/${lastCategorieSlug}`}>
+                RETOUR
+              </NextLink>
+            </Box>
+          )}
+        </Box>
+        {isCategorie && (
+          <Box mx={4} my={2} fontSize={"xl"} color={"white"}>
+            <NextLink href={`/informations`}>RETOUR</NextLink>
+          </Box>
+        )}
+
         <Box fontWeight="bold" fontSize="lg">
           <NextLink href={"/"}>
             <Image
@@ -68,10 +93,10 @@ const Navbar = () => {
         <Spacer />
         <Box display={{ base: "none", md: "block" }}>
           <Flex color="white">
-            <Box mx={4} _hover={{color: 'black'}}>
+            <Box mx={4} _hover={{ color: "black" }}>
               <NextLink href={"/"}>Accueil</NextLink>
             </Box>
-            <Box mx={4} _hover={{color: 'black'}}>
+            <Box mx={4} _hover={{ color: "black" }}>
               <Box
                 onMouseEnter={handleDropdownToggle}
                 onMouseLeave={handleDropdownClose}
@@ -80,11 +105,10 @@ const Navbar = () => {
                 <NextLink href={"/informations"}>INFORMATIONS</NextLink>
               </Box>
             </Box>
-            
           </Flex>
         </Box>
         <IconButton
-          icon={<HamburgerIcon color={"white"}/>}
+          icon={<HamburgerIcon color={"white"} />}
           variant="ghost"
           colorScheme="#fd0000"
           size="md"
@@ -99,11 +123,10 @@ const Navbar = () => {
             <Box mx={4} my={2}>
               <NextLink href={"/"}>Accueil</NextLink>
             </Box>
-            
+
             <Box mx={4} my={2}>
               <NextLink href={"/informations"}>INFORMATIONS</NextLink>
             </Box>
-           
           </Flex>
         </Box>
       </Collapse>
