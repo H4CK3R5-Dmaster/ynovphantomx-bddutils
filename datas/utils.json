@@ -127,6 +127,22 @@
                     "categoriename":"Enumération"
                 }
             ]
+        },
+        {
+            "id":9,
+            "nom":"Nikto",
+            "image":"/Nikto.png",
+            "description":"Nikto est un scanner de vulnérabilité en ligne de commande logiciel gratuit qui analyse les serveurs Web à la recherche de fichiers/CGI dangereux, de logiciels serveur obsolètes et d'autres problèmes.",
+            "parametreslink":"https://doc.ubuntu-fr.org/nikto",
+            "exemple":"nikto -h [URL]",
+            "video":"https://www.youtube.com/watch?v=5r7FwvGLLTc&ab_channel=NoobosaurusR3x",
+            "linkdl":"https://github.com/sullo/nikto",
+            "categories":[
+                {
+                    "id_categorie": 2,
+                    "categoriename":"Enumération"
+                }
+            ]
         }
     ]
 }
