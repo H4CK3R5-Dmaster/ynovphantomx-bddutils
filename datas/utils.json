@@ -111,6 +111,22 @@
                     "categoriename":"Enumération"
                 }
             ]
+        },
+        {
+            "id":8,
+            "nom":"Gobuster",
+            "image":"/gobuster-logo.svg",
+            "description":"Gobuster est un outil développé en Go et disponible dans les dépôts officiels de Kali Linux. Actuellement à la version 3.1.0, il permet de faire bruteforce des: Répertoires et fichiers d’un site web, Sous domaines d’un domaine principal, Hôtes virtuelles (vhost) d’un serveur web, Buckets Amazon ouverts",
+            "parametreslink":"https://www.kali-linux.fr/conseil/gobuster-le-bruteforce-de-pages-web",
+            "exemple":"sudo gobuster dir -u (lien) -w (wordlist)",
+            "video":"https://www.youtube.com/watch?v=n81GUEyHeJ8&ab_channel=NoobosaurusR3x",
+            "linkdl":"https://github.com/OJ/gobuster",
+            "categories":[
+                {
+                    "id_categorie": 2,
+                    "categoriename":"Enumération"
+                }
+            ]
         }
     ]
 }
