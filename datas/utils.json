@@ -95,6 +95,22 @@
                     "categoriename":"Reconnaissance"
                 }
             ]
+        },
+        {
+            "id":7,
+            "nom":"Sublist3r",
+            "image":"/sublister.png",
+            "description":"Sublist3r est un outil Python conçu pour énumérer les sous-domaines de sites Web utilisant OSINT. Il aide les testeurs d'intrusion et les chasseurs de bogues à collecter et à regrouper des sous-domaines pour le domaine qu'ils ciblent. Sublist3r énumère les sous-domaines à l'aide de nombreux moteurs de recherche tels que Google, Yahoo, Bing, Baidu et Ask. Sublist3r énumère également les sous-domaines utilisant Netcraft, Virustotal, ThreatCrowd, DNSdumpster et ReverseDNS.",
+            "parametreslink":"https://www.securiteinfo.com/attaques/hacking/outils/sublist3r.shtml",
+            "exemple":"voir vidéo",
+            "video":"https://www.youtube.com/watch?v=OWblaOHjpAk&t=2s&ab_channel=HackinGeeK",
+            "linkdl":"https://github.com/aboul3la/Sublist3r",
+            "categories":[
+                {
+                    "id_categorie": 2,
+                    "categoriename":"Enumération"
+                }
+            ]
         }
     ]
 }
