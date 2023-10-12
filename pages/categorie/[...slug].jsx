@@ -10,7 +10,8 @@ export default function PageUtils() {
     const router = useRouter()
     const { slug } = router.query
     const [data, setData] = useState(null);
-    const [utilsdata, setUtilsdata] = useState([]); // Utilisez le useState pour gérer l'état
+    const [utilsdata, setUtilsdata] = useState([]); 
+    
 
     useEffect(() => {
         axios
@@ -32,7 +33,7 @@ export default function PageUtils() {
             setUtilsdata(filteredUtils);
         })
         .catch((error) => console.error(error));
-    }, [slug]); // Assurez-vous d'inclure slug dans le tableau de dépendances
+    }, [slug]); 
 
     return (
         <ContainerBlock>
