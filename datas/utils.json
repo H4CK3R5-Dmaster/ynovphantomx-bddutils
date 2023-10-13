@@ -159,6 +159,38 @@
                     "categoriename":"Enumération"
                 }
             ]
+        },
+        {
+            "id":11,
+            "nom":"Enum4linux",
+            "image":"/enum.svg",
+            "description":"Enum4linux est un outil écrit en Perl utilisé pour énumérer les hôtes Windows et Samba. L'outil est essentiellement un « wrapper » pour smbclient, rpcclient, net et nmblookup.",
+            "parametreslink":"https://www.kali.org/tools/enum4linux/",
+            "exemple":"",
+            "video":"https://www.youtube.com/watch?v=yY9MuhlPiAk",
+            "linkdl":"https://github.com/CiscoCXSecurity/enum4linux",
+            "categories":[
+                {
+                    "id_categorie": 2,
+                    "categoriename":"Enumération"
+                }
+            ]
+        },
+        {
+            "id":12,
+            "nom":"Dirb",
+            "image":"/dirb.svg",
+            "description":"DIRB est un outil de ligne de commande Linux populaire utilisé pour vérifier et supprimer des répertoires sur des applications Web. Il énumère les indices possibles de la liste de mots par rapport à l'URL du site Web.",
+            "parametreslink":"https://www.kali.org/tools/dirb/",
+            "exemple":"",
+            "video":"https://www.youtube.com/watch?v=u1ubhjgLsjc&ab_channel=Archidote",
+            "linkdl":"https://github.com/v0re/dirb",
+            "categories":[
+                {
+                    "id_categorie": 2,
+                    "categoriename":"Enumération"
+                }
+            ]
         }
     ]
 }
