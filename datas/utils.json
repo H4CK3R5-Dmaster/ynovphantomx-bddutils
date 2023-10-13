@@ -143,6 +143,22 @@
                     "categoriename":"Enumération"
                 }
             ]
+        },
+        {
+            "id":10,
+            "nom":"SPARTA",
+            "image":"/sparta.jpg",
+            "description":"SPARTA est une application Python GUI qui simplifie les tests d'intrusion de l'infrastructure réseau en aidant le testeur d'intrusion dans la phase d'analyse et d'énumération. Il permet au testeur de gagner du temps en ayant un accès pointer-cliquer à sa boîte à outils et en affichant toutes les sorties de l'outil de manière pratique. Si peu de temps est consacré à la configuration des commandes et des outils, davantage de temps peut être consacré à l’analyse des résultats. Malgré les capacités d'automatisation, les commandes et outils utilisés sont entièrement personnalisables puisque chaque testeur a ses propres méthodes, habitudes et préférences.",
+            "parametreslink":"check interface sparta ou legion",
+            "exemple":"",
+            "video":"https://www.youtube.com/watch?v=5lN2HN1OtqM",
+            "linkdl":"https://github.com/SECFORCE/sparta",
+            "categories":[
+                {
+                    "id_categorie": 2,
+                    "categoriename":"Enumération"
+                }
+            ]
         }
     ]
 }
