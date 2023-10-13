@@ -37,7 +37,7 @@ const CardInfo = () => {
               borderRadius="md"
               boxShadow="md"
               color={"white"}
-              height={["2xl","xl"]}
+              height={["3xl","xl"]}
               _hover={{bg: "blue.800"}}
             >
               <Image src={item.image} alt="Image" height={60} width={"2xl"} />
